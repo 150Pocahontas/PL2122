@@ -1,7 +1,0 @@
-Lista : "\[" "\]"
-      | "\[" LCont "\]"
-
-LCont : NUM
-      | LCont "\," NUM
-
-NUM : "\d+"
