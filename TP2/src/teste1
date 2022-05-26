@@ -1,0 +1,4 @@
+Lista : "\[" "\]"
+      | "\[" LCont "\]"
+LCont : "\d+"
+      | LCont "\," "\d+" 
