@@ -1,0 +1,7 @@
+S : Exp
+Exp : "\d+"
+    | "\(" Funcao "\)"
+Funcao : "\+" Lista
+       | "\*" Lista
+Lista : Exp Lista
+      | "" 

@@ -1,0 +1,4 @@
+Lista: "\[" LCont 
+     | LCont "\]" ! print(p[1])
+LCont: "\d+"
+     | LCont "\," "\d+" 
